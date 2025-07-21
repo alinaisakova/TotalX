@@ -6,11 +6,11 @@
 
 TotalX is a robust, scalable framework for single-cell total RNA profiling that enables detection of both polyadenylated and non-polyadenylated transcripts—including miRNAs, lncRNAs, tRNAs, snoRNAs, snRNAs, and histone RNAs—at high throughput and with minimal protocol changes to the standard 10x Genomics platform.
 
-> **Figure 1A.** Overview of the TotalX protocol and benchmarking against other single-cell RNA-seq methods:
+> **Figure 1A.** Overview of the TotalX protocol:
 
 ![Figure 1A: Overview of TotalX protocol](Git_fig1.png)
 
-*Figure 1A shows the workflow: enzymatic polyadenylation, reverse transcription with a custom TSO, Cas9-based rRNA depletion, separation of long/short cDNA, optional miRNA enrichment, and high-throughput sequencing. See manuscript for details.*
+*Figure 1 shows the workflow: enzymatic polyadenylation, reverse transcription with a custom TSO, Cas9-based rRNA depletion, separation of long/short cDNA, optional miRNA enrichment, and high-throughput sequencing. See manuscript for details.*
 
 ## Method Description
 
@@ -35,6 +35,6 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
 
 ## More Information
 
-For full details, see the [preprint/manuscript](link), or contact [your email].
+For full details, see the [preprint/manuscript](link), or contact isakova@satnford.edu.
 
 
