@@ -1,11 +1,3 @@
-# TotalX
-TotalX protocol
----
-layout: home
-title: "TotalX: Scalable Single-cell Total RNA-seq"
-nav_order: 1
----
-
 # TotalX: Scalable Single-cell Total RNA-seq
 
 **Authors:** Alina Isakova et al.
@@ -16,7 +8,7 @@ TotalX is a robust, scalable framework for single-cell total RNA profiling that 
 
 > **Figure 1A.** Overview of the TotalX protocol and benchmarking against other single-cell RNA-seq methods:
 
-![Figure 1A: Overview of TotalX protocol](figure1a.png)
+![Figure 1A: Overview of TotalX protocol](Git_fig1.png)
 
 *Figure 1A shows the workflow: enzymatic polyadenylation, reverse transcription with a custom TSO, Cas9-based rRNA depletion, separation of long/short cDNA, optional miRNA enrichment, and high-throughput sequencing. Panels b–f show benchmarking against VASA-seq and 10x Genomics 3', gene detection rates, RNA biotype diversity, miRNA detection, and read coverage profiles for selected miRNAs. See manuscript for details.*
 
