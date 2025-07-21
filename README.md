@@ -10,17 +10,14 @@ TotalX is a robust, scalable framework for single-cell total RNA profiling that 
 
 ![Figure 1A: Overview of TotalX protocol](Git_fig1.png)
 
-*Figure 1A shows the workflow: enzymatic polyadenylation, reverse transcription with a custom TSO, Cas9-based rRNA depletion, separation of long/short cDNA, optional miRNA enrichment, and high-throughput sequencing. Panels b–f show benchmarking against VASA-seq and 10x Genomics 3', gene detection rates, RNA biotype diversity, miRNA detection, and read coverage profiles for selected miRNAs. See manuscript for details.*
+*Figure 1A shows the workflow: enzymatic polyadenylation, reverse transcription with a custom TSO, Cas9-based rRNA depletion, separation of long/short cDNA, optional miRNA enrichment, and high-throughput sequencing. See manuscript for details.*
 
 ## Method Description
 
 TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ chemistry, using a custom template-switching oligo (TSO) and uracil-DNA glycosylase (UDG) for cDNA processing, with Cas9-mediated rRNA depletion (DASH).  
 - Both long (>400 bp) and short (<400 bp) RNA fragments are indexed and sequenced in parallel, with optional miRNA enrichment.
-- Compatible with standard Cell Ranger pipelines and high-throughput 10x workflows.
+- Used with a standard Cell Ranger pipeline.
 - Recovers diverse RNA biotypes at single-cell resolution.
-
-TotalX achieves gene detection sensitivity comparable to VASA-seq but at 10x droplet scale, enabling the discovery of non-coding RNAs (lncRNAs, miRNAs, tRNAs, snoRNAs, etc.) across thousands of cells per experiment.  
-This enables new studies of coding and non-coding programs in immunity, infection, and brain development.
 
 ---
 
