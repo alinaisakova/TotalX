@@ -1,4 +1,4 @@
-# TotalX: Scalable Single-cell Total RNA-seq
+# TotalX: Scalable Single-cell Total RNA-seq on 10x Genomics Chromium platform
 
 **Authors:** Alina Isakova et al.
 
