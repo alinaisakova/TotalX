@@ -2,7 +2,7 @@
 
 ## Overview
 
-TotalX is a robust, scalable framework for single-cell total RNA profiling that enables detection of both polyadenylated and non-polyadenylated transcripts—including miRNAs, lncRNAs, tRNAs, snoRNAs, snRNAs, and histone RNAs—at high throughput and with minimal protocol changes to the standard 10x Genomics platform.
+TotalX is a scalable framework for single-cell total RNA profiling that enables detection of both polyadenylated and non-polyadenylated transcripts—including miRNAs, lncRNAs, tRNAs, snoRNAs, snRNAs, and histone RNAs—at high throughput and with minimal protocol changes to the standard 10x Genomics platform.
 
 > **Figure 1** Overview of the TotalX protocol:
 
@@ -68,7 +68,7 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
 
 ## Citation
 
-*(Add your citation info)*
+*Isakova et al. 2025*
 
 ---
 
