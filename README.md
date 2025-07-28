@@ -1,7 +1,5 @@
 # TotalX: Single-cell Total RNA-seq on 10x Genomics Chromium platform
 
-**Authors:** Alina Isakova et al.
-
 ## Overview
 
 TotalX is a robust, scalable framework for single-cell total RNA profiling that enables detection of both polyadenylated and non-polyadenylated transcripts—including miRNAs, lncRNAs, tRNAs, snoRNAs, snRNAs, and histone RNAs—at high throughput and with minimal protocol changes to the standard 10x Genomics platform.
