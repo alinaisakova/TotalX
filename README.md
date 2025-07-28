@@ -39,7 +39,7 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
 
 3. **Dual-pass alignment strategy**:
 
-   * **Long RNA reference**: includes protein-coding genes, lncRNAs, miRNAs, snRNAs, snoRNAs, tRNAs, immunoglobulin/T-cell receptor genes, and viral genomes. See [scripts/annotation.sh](annotation.sh) for details.
+   * **Long RNA reference**: includes protein-coding genes, lncRNAs, miRNAs, snRNAs, snoRNAs, tRNAs, immunoglobulin/T-cell receptor genes, and viral genomes. See [scripts/annotation.sh](scripts/annotation.sh) for details.
    * **Short RNA reference**: includes miRNAs, snoRNAs, and scaRNAs for accurate mapping. See [annotation\_smallRNA.sh](scripts/annotation_smallRNA.sh) for details.
      
 4. **Run Cell Ranger count**:
