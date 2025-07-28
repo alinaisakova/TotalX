@@ -38,7 +38,7 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
    ```
    See [scripts/cutadapt_trim.sh](scripts/cutadapt_trim.sh) for more detailes.
 
-3. **Dual-pass alignment strategy**:
+3. **Create references for dual-pass alignment strategy**:
 
    * **Long RNA reference**: includes protein-coding genes, lncRNAs, miRNAs, snRNAs, snoRNAs, tRNAs, immunoglobulin/T-cell receptor genes, and viral genomes. See [scripts/annotation.sh](scripts/annotation.sh) for details.
    * **Short RNA reference**: includes miRNAs, snoRNAs, and scaRNAs for accurate mapping. See [scripts/annotation\_smallRNA.sh](scripts/annotation_smallRNA.sh) for details.
@@ -58,7 +58,7 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
 
 5. **Merge final matrices**:
 
-   * Merge count matrices, resolve overlaps, and ensure accurate UMI counting: See [TotalX.preprocess.ipynb](TotalX.preprocess.ipynb) TotalX.preprocess.ipynb for details 
+   * Merge count matrices, resolve overlaps, and ensure accurate UMI counting: See [Notebooks/TotalX.preprocess.ipynb](Notebooks/TotalX.preprocess.ipynb) TotalX.preprocess.ipynb for details 
 
 
 ---
