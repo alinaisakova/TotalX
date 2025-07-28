@@ -36,6 +36,7 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
    ```bash
    cutadapt -u 6 -a "AAAAAAAAAA;min_overlap=10" -m 18 -o ${TRIM_R2} -p ${TRIM_R1} "${R2_lane_file}" "${R1_lane_file}"
    ```
+   See [scripts/cutadapt_trim.sh](scripts/cutadapt_trim.sh) for more detailes.
 
 3. **Dual-pass alignment strategy**:
 
