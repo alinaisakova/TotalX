@@ -51,12 +51,17 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
      star_parameters = "--outFilterMismatchNoverLmax=0.05 --outFilterMatchNmin=18 --outFilterScoreMinOverLread=0 --outFilterMatchNminOverLread=0"
      ```
    * Execute Cell Ranger count:
-
+     
+    First, using the **Long RNA reference**:
      ```bash
      cellranger count --id=<sample_id> --transcriptome=<reference> --fastqs=<fastq_dir> --sample=<sample_name> --include-introns=true
      ```
 
-5. **Merge final matrices**:
+    Then, using the **Short RNA reference**:
+     ```bash
+     cellranger count --id=<sample_id> --transcriptome=<reference> --fastqs=<fastq_dir> --sample=<sample_name> --include-introns=true
+     ```
+6. **Merge final matrices**:
 
    * Merge count matrices, resolve overlaps, and ensure accurate UMI counting: See [notebooks/TotalX.preprocess.ipynb](notebooks/TotalX.preprocess.ipynb) TotalX.preprocess.ipynb for details 
 
