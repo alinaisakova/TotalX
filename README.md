@@ -74,6 +74,6 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
 
 ## More Information
 
-For full details, see the [preprint/manuscript](link), or contact isakova@stanford.edu.
+For full details, see the [preprint](https://www.biorxiv.org/content/10.1101/2025.08.08.669394v1), or contact isakova@stanford.edu.
 
 
