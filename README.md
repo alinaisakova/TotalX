@@ -63,7 +63,13 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
 
    * Merge count matrices, resolve overlaps, and ensure accurate UMI counting: See [notebooks/TotalX.preprocess.ipynb](notebooks/TotalX.preprocess.ipynb) TotalX.preprocess.ipynb for details 
 
+---
 
+## Data objects
+
+[link to data](https://figshare.com/s/f6a2eea85980a6f7cd20]
+
+---
 ---
 
 ## Citation
