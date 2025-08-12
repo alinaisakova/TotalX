@@ -67,7 +67,7 @@ TotalX adapts the Smart-seq-total principles to droplet-based 10x Genomics 3′ 
 
 ## Data objects
 
-[link to data](https://figshare.com/s/f6a2eea85980a6f7cd20]
+ [link to figshare](https://figshare.com/s/f6a2eea85980a6f7cd20)
 
 ---
 ---
